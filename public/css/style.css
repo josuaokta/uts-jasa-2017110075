@@ -1,0 +1,81 @@
+body {
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+  }
+  .carousel {
+    margin-bottom: 4rem;
+  }
+
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+
+  .carousel-item {
+    height: 32rem;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+
+  .towing {
+    padding-top: 3rem
+  }
+
+  .towing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .towing h2 {
+    font-weight: 400;
+  }
+  .towing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+
+  .towing img {
+    height: auto;
+  }
+
+  .feature-divider {
+    margin: 5rem 0;
+  }
+
+  .feature-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+
+  .feature img {
+    max-width: 500px;
+  }
+
+  .testimoni img {
+    max-width: 300px;
+    height: 300px;
+    margin-bottom: 1rem;
+  }
+
+  @media (min-width: 40em) {
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+
+    .feature-heading {
+      font-size: 50px;
+    }
+  }
+
+  @media (min-width: 62em) {
+    .feature-heading {
+      margin-top: 2rem;
+    }
+  }
